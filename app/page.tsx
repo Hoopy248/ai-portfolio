@@ -7,6 +7,34 @@ const projects = [
     tag: "Fantasy / Cinematic",
     video: "/videos/Dark fantasy.mp4",
   },
+{
+  title: "Syringe Dream",
+  description:
+    "Surreal psychological cinematic sequence exploring tension, symbolism, and unsettling atmosphere.",
+  tag: "Surreal / Psychological",
+  video: "/videos/srynge.mp4",
+},
+{
+  title: "Neon Drive",
+  description:
+    "Atmospheric futuristic driving sequence with cinematic motion and dystopian lighting.",
+  tag: "Cyberpunk / Motion",
+  video: "/videos/car.mp4",
+},
+{
+  title: "Resident Nightmare",
+  description:
+    "Dark horror-inspired cinematic environment with atmospheric tension and immersive mood.",
+  tag: "Horror / Sci-Fi",
+  video: "/videos/resident.mp4",
+},
+{
+  title: "Emotional Breakdown",
+  description:
+    "Dark emotional cinematic sequence focused on tension and dramatic atmosphere.",
+  tag: "Drama / Cinematic",
+  video: "/videos/anger.mp4",
+},
 
   {
     title: "Neon Dystopia",
@@ -48,25 +76,30 @@ const projects = [
               emotional environments, sci‑fi worlds, and fantasy aesthetics.
             </p>
 
-<a
-  href="#projects"
-  className="px-6 py-3 rounded-2xl border border-white/20 hover:bg-white/5 transition-colors inline-block"
->
-  View Projects
-</a>
-<a
-  href="#reel"
-  className="px-6 py-3 rounded-2xl bg-white text-black font-medium hover:scale-105 transition-transform inline-block"
->
-  Watch Reel
-</a>
+<div className="flex flex-wrap gap-4 pt-4">
 
-<a
-  href="mailto:alexei.pertsev2@gmail.com"
-  className="px-6 py-3 rounded-2xl border border-white/20 hover:bg-white/5 transition-colors inline-block"
->
-  Contact
-</a>
+  <a
+    href="#reel"
+    className="px-6 py-3 rounded-2xl bg-white text-black font-medium hover:scale-105 transition-transform inline-block"
+  >
+    Watch Reel
+  </a>
+
+  <a
+    href="#projects"
+    className="px-6 py-3 rounded-2xl border border-white/20 hover:bg-white/5 transition-colors inline-block"
+  >
+    View Projects
+  </a>
+
+  <a
+    href="mailto:alexei.pertsev2@gmail.com"
+    className="px-6 py-3 rounded-2xl border border-white/20 hover:bg-white/5 transition-colors inline-block"
+  >
+    Contact
+  </a>
+
+
             </div>
           </div>
         </div>
@@ -99,7 +132,7 @@ const projects = [
       </section>
 
       {/* PROJECTS */}
-<section id="projects" className="max-w-6xl mx-auto px-6 pb-24">
+      <section className="max-w-6xl mx-auto px-6 pb-24">
         <div className="mb-12">
           <p className="text-sm uppercase tracking-[0.3em] text-zinc-500 mb-4">
             Projects
