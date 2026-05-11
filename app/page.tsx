@@ -33,7 +33,7 @@ const projects = [
   description:
     "Dark horror-inspired cinematic environment with atmospheric tension and immersive mood.",
   tag: "Horror / Sci-Fi",
-  video: "/videos/resident.mp4",
+  video: "/videos/realrpd.mp4",
 },
 {
   title: "Emotional Breakdown",
