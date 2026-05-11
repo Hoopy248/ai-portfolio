@@ -22,6 +22,13 @@ const projects = [
   video: "/videos/car.mp4",
 },
 {
+  title: "Ritual Visions",
+  description:
+    "Dark fantasy cinematic sequence with atmospheric lighting and surreal emotional imagery.",
+  tag: "Fantasy / Dark Atmosphere",
+  video: "/videos/ritavesk.mp4",
+},
+{
   title: "Resident Nightmare",
   description:
     "Dark horror-inspired cinematic environment with atmospheric tension and immersive mood.",
