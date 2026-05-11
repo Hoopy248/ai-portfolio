@@ -48,7 +48,12 @@ const projects = [
               emotional environments, sci‑fi worlds, and fantasy aesthetics.
             </p>
 
-            <div className="flex flex-wrap gap-4 pt-4">
+<a
+  href="#projects"
+  className="px-6 py-3 rounded-2xl border border-white/20 hover:bg-white/5 transition-colors inline-block"
+>
+  View Projects
+</a>
 <a
   href="#reel"
   className="px-6 py-3 rounded-2xl bg-white text-black font-medium hover:scale-105 transition-transform inline-block"
@@ -94,7 +99,7 @@ const projects = [
       </section>
 
       {/* PROJECTS */}
-      <section className="max-w-6xl mx-auto px-6 pb-24">
+<section id="projects" className="max-w-6xl mx-auto px-6 pb-24">
         <div className="mb-12">
           <p className="text-sm uppercase tracking-[0.3em] text-zinc-500 mb-4">
             Projects
