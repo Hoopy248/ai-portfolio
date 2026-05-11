@@ -139,7 +139,7 @@ const projects = [
       </section>
 
       {/* PROJECTS */}
-      <section className="max-w-6xl mx-auto px-6 pb-24">
+<section id="projects" className="max-w-6xl mx-auto px-6 pb-24">
         <div className="mb-12">
           <p className="text-sm uppercase tracking-[0.3em] text-zinc-500 mb-4">
             Projects
