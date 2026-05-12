@@ -137,6 +137,32 @@ const projects = [
   </video>
 </div>
       </section>
+      <section className="max-w-6xl mx-auto px-6 pb-24">
+
+  <div className="mb-10">
+    <p className="text-sm uppercase tracking-[0.3em] text-zinc-500 mb-4">
+      The floor above
+    </p>
+
+    <h2 className="text-4xl md:text-5xl font-semibold tracking-tight">
+      Cinematic psychological horror atmosphere
+    </h2>
+  </div>
+
+  <div className="aspect-video rounded-[2rem] border border-white/10 overflow-hidden">
+    <video
+      autoPlay
+      muted
+      loop
+      playsInline
+      controls
+      className="w-full h-full object-cover"
+    >
+      <source src="/videos/horror.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+</section>
 
       {/* PROJECTS */}
 <section id="projects" className="max-w-6xl mx-auto px-6 pb-24">
