@@ -141,11 +141,11 @@ const projects = [
 
   <div className="mb-10">
     <p className="text-sm uppercase tracking-[0.3em] text-zinc-500 mb-4">
-      The floor above
+      Showreel
     </p>
 
     <h2 className="text-4xl md:text-5xl font-semibold tracking-tight">
-      Cinematic psychological horror atmosphere
+      The Floor Above
     </h2>
   </div>
 
@@ -244,6 +244,50 @@ const projects = [
           </div>
         </div>
       </section>
+
+<section className="max-w-6xl mx-auto px-6 pb-24">
+
+  <div className="mb-10">
+    <p className="text-sm uppercase tracking-[0.3em] text-zinc-500 mb-4">
+      Editorial Experiments
+    </p>
+
+    <h2 className="text-4xl md:text-5xl font-semibold tracking-tight">
+      Synthetic Elegance
+    </h2>
+  </div>
+
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+    <div className="aspect-video rounded-[2rem] border border-white/10 overflow-hidden">
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        controls
+        className="w-full h-full object-cover"
+      >
+        <source src="/videos/editorial1.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div className="aspect-video rounded-[2rem] border border-white/10 overflow-hidden">
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        controls
+        className="w-full h-full object-cover"
+      >
+        <source src="/videos/editorial2.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+  </div>
+
+</section>
 
       {/* FOOTER */}
       <footer className="border-t border-white/10">
