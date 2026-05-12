@@ -249,7 +249,7 @@ const projects = [
 
   <div className="mb-10">
     <p className="text-sm uppercase tracking-[0.3em] text-zinc-500 mb-4">
-      Editorial Experiments
+      Production
     </p>
 
     <h2 className="text-4xl md:text-5xl font-semibold tracking-tight">
@@ -272,7 +272,7 @@ const projects = [
       </video>
     </div>
 
-    <div className="aspect-video rounded-[2rem] border border-white/10 overflow-hidden">
+        <div className="aspect-video rounded-[2rem] border border-white/10 overflow-hidden">
       <video
         autoPlay
         muted
@@ -282,6 +282,32 @@ const projects = [
         className="w-full h-full object-cover"
       >
         <source src="/videos/editorial2.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+        <div className="aspect-video rounded-[2rem] border border-white/10 overflow-hidden">
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        controls
+        className="w-full h-full object-cover"
+      >
+        <source src="/videos/editorial3.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div className="aspect-video rounded-[2rem] border border-white/10 overflow-hidden">
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        controls
+        className="w-full h-full object-cover"
+      >
+        <source src="/videos/editorial4.mp4" type="video/mp4" />
       </video>
     </div>
 
