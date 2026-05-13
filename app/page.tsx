@@ -111,7 +111,38 @@ const projects = [
           </div>
         </div>
       </section>
+<section className="max-w-6xl mx-auto px-6 py-24">
 
+  <div className="mb-10">
+    <p className="text-sm uppercase tracking-[0.3em] text-zinc-500 mb-4">
+      Commercial Work
+    </p>
+
+    <h2 className="text-4xl md:text-5xl font-semibold tracking-tight">
+      Persian Dreams
+    </h2>
+
+    <p className="text-zinc-400 text-lg leading-relaxed max-w-3xl mt-6">
+      Atmospheric AI-driven luxury commercial concept created for Persian Dreams, focused on warmth, craftsmanship, texture, and cinematic interior storytelling.
+    </p>
+  </div>
+
+  <div className="flex justify-center">
+    <div className="w-[340px] md:w-[420px] rounded-[2rem] border border-white/10 overflow-hidden">
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        controls
+        className="w-full h-full object-cover"
+      >
+        <source src="/videos/persiandreams.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </div>
+
+</section>
       {/* REEL */}
 <section id="reel" className="max-w-6xl mx-auto px-6 py-24">
         <div className="mb-10">
